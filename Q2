@@ -1,6 +1,6 @@
 For the BirdSong LMS, as a project manager, I would do the following
 
-1. By identifying the project scope, I would come up with the use cases of the project (based on the customer/client requirements) using UML models and create user flows to create an end to end service (Sample use cases for BirdSong attached to the repo)
+1. By identifying the project scope, I would come up with the use cases of the project (based on the customer/client requirements) using UML models and create user flows to create an end to end service (Sample use case as png for BirdSong attached to the repo)
 
 2. Create Milestones for the project on a broader level based on the use cases/ user flows identified in step 1
 - Design UI/UX for each web page in every use case: Dec 1st, 2022 to Jan 1st, 2023
@@ -62,3 +62,8 @@ As a head developer, I would do the following
 5. Ensure development phase matches the overall project timeline and causes no issues to the release dates
 
 6. Look into new bugs identified by the QA and assign them the severity, emergency, and resolve them
+
+7. Maintain and record documentation for all processes, functionality and versions of the BirdSong LMS
+- Documentation for the code side logic and explanation
+- Documentation for the guide through processes of the services provided by the BirdSong
+- etc
