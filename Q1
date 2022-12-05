@@ -1,0 +1,50 @@
+var inputArray = []; //To receive Input from user
+var inputPrimeNumbers = []; //To parse the input array to Integer
+var size = 3; //Maximum Array size since A, B, C
+
+for (var i = 0; i < size; i++) {
+  //Taking Input from user
+  inputArray[i] = prompt('Enter ' + (i + 1) + ' of 3 prime numbers');
+  //Parsing to Integer type
+  inputPrimeNumbers[i] = parseInt(inputArray[i]);
+}
+
+//Taking Output array size from user
+var outputArraySize = prompt('Enter size of output array ');
+
+//Final output array
+var outputArray = [];
+
+for (var j = 0, k = 2; j < outputArraySize && k < Number.MAX_VALUE; k++) {
+  //Get prime factors for each number
+  var factorsOfK = primeFactors(k);
+  //Remove duplicates using set data structure
+  var uniqueFactorsOfK = [...new Set(factorsOfK)];
+  //Check if factors of each number are only A, B, C or combination of them
+  var result = uniqueFactorsOfK.every(element => inputPrimeNumbers.includes(element));
+  //result is true stores K to final output array
+  if (result) {
+    outputArray[j] = k;
+    j++;
+  }
+}
+
+//Standard prime factors logic
+function primeFactors(n) {
+  var factors = [];
+  let divisor = 2;
+
+  while (n >= 2) {
+    if (n % divisor == 0) {
+      factors.push(divisor);
+      n = n / divisor;
+    } else {
+      divisor++;
+    }
+  }
+  return factors;
+}
+
+console.log("Input Prime Numbers: " + inputPrimeNumbers);
+console.log("Output array size: " + outputArraySize);
+console.log("Output array: " + outputArray);
