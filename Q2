@@ -35,6 +35,11 @@ As a head developer, I would do the following
 - Develop homepage for the logged in users: i) Create reusable components to display paid courses and selected courses in a sliding fashion ii) Integrate other functionality such as messaging and avatar styling into the homepage iii) Add logout functionality for the user from dropdown button
 - etc
 
+3. Help/Guide PM in selecting the tech stack for the project based on the necessities of the clients/requirements
+- For frontend based applications, having a responsive and user friendly UI is necessary. React is a choice
+- For unstructured data in the db, select NoSQL for the database. MongoDB is a choice
+- etc
+
 3. Conduct as/assist scrum master in sprint planning by
 - Selecting tasks from the backlog for the sprint week based on sequence of implementation
     -Task 1: Generate database schema for the users
