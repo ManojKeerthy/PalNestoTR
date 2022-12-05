@@ -1,0 +1,59 @@
+For the BirdSong LMS, as a project manager, I would do the following
+
+1. By identifying the project scope, I would come up with the use cases of the project (based on the customer/client requirements) using UML models and create user flows to create an end to end service (Sample use cases for BirdSong attached to the repo)
+
+2. Create Milestones for the project on a broader level based on the use cases/ user flows identified in step 1
+- Design UI/UX for each web page in every use case: Dec 1st, 2022 to Jan 1st, 2023
+- Create a timeline for the development phase of the project: Jan 2nd 2023 to April 15th, 2023
+- Conduct Quality Assurance and build check for the developed project: April 16, 2023 to April 30, 2023
+- Release date of the version 1 of the project: May 1, 2023
+- etc
+
+3. Based on the previous experiences, further breakdown the milestones into monthly or weekly milestones
+- Monthly milestones: Generate UI/UX design: Dec 1st, 2022 to Jan 1st, 2023
+- Weekly milestones: Come up with color combinations and logos for homepage and courses page of the BirdSong: Dec 1, 2023 to Dec 7, 2023
+- etc
+
+4. Create an entire backlog of tasks related to the services of the BirdSong LMS
+- Develop User registration process
+- Develop User sign in page
+- Develop payment service for the courses functionality
+- Develop homepage for the logged in users
+- Develop messaging functionality for the users
+- etc
+
+5. Assign Scrum master for different teams of the project
+
+
+
+As a head developer, I would do the following
+
+1. Generate class diagram(s) depicting the connection between different classes, use cases, parameters, methods and databases (sample class diagram for BirdSong LMS attached to the repo)
+
+2. Further breakdown backlog tasks into subtasks and assign severity (high, medium, low) and type of issue (bug, feature, blocker) to the tasks
+- Develop User registration process: i) Create user registration form (page) and check the user details for redundancy ii) Establish connection with the database and store details into db upon successful creation
+- Develop homepage for the logged in users: i) Create reusable components to display paid courses and selected courses in a sliding fashion ii) Integrate other functionality such as messaging and avatar styling into the homepage iii) Add logout functionality for the user from dropdown button
+- etc
+
+3. Conduct as/assist scrum master in sprint planning by
+- Selecting tasks from the backlog for the sprint week based on sequence of implementation
+    -Task 1: Generate database schema for the users
+    -Task 2: Generate database schema for the courses
+    -Task 3: Generate secure Authentication and Authorization methods for log-in functionality
+    -Task 4: Generate API calls to fetch database details to the frontend
+    -etc
+- Scoping tasks for time required to finish the tasks
+    -Task 1: 20h
+    -Task 2: 16h
+    -Task 3: 40h
+    -etc
+- Assigning tasks to co-developers/team mates based on their availability, experience, and area of expertise
+- Conduct review and retrospective meetings to assses what has been achieved and what needs to be improved
+- Conduct daily standups to let know status of developers each day
+- etc
+
+4. Perform code reviews for the team and help junior devs in following coding standards to improve
+
+5. Ensure development phase matches the overall project timeline and causes no issues to the release dates
+
+6. Look into new bugs identified by the QA and assign them the severity, emergency, and resolve them
